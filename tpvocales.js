@@ -2,7 +2,8 @@ var vocales = ["a","e","i","o","u"];
 var arrayatrabajar = ['Agent', 'Smith:', 'Never', 'send', 'a', 'human', 'to', 'do', 'a', 'machine\'s', 'job'];
 var cantvocales = 0 ;
 var arraycontadordevocales = [];
-debugger;
+var palabraatrabajar = [];
+var letraaanalizar;
 
 for (var i = 0;  i < arrayatrabajar.length ; i = i + 1) {
 	palabraatrabajar = arrayatrabajar[i];
